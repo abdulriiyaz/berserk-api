@@ -1,0 +1,30 @@
+{
+    "name": "berserk-api-v1",
+    "version": "1.0.0",
+    "description": "A REST API for Famous Manga Berserk by Kentaro Miura.",
+    "main": "index.js",
+    "scripts": {
+        "start": "node app.js",
+        "dev": "nodemon app.js"
+    },
+    "keywords": [
+        "rest",
+        "api",
+        "manga",
+        "mangaberserk",
+        "mangaberserk.com"
+    ],
+    "author": "ri7az",
+    "license": "MIT",
+    "dependencies": {
+        "dotenv": "^10.0.0",
+        "express": "^4.17.1",
+        "joi": "^17.4.2",
+        "mongoose": "^6.0.12",
+        "puppeteer": "^11.0.0",
+        "volleyball": "^1.5.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.14"
+    }
+}
