@@ -5,7 +5,7 @@ const router = express.Router();
 router.get("/", handleAPIRequest);
 
 function handleAPIRequest(req, res, next) {
-    res.send(req.body.character);
+    res.json({ character: req.body.character });
 }
 
 module.exports = router;

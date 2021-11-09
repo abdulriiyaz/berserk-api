@@ -16,7 +16,7 @@ app.use("/api/character", berserkApi);
 
 app.get("/", (req, res, next) => {
     //console.log("Hello World");
-    res.send("Welcome to the Berserk API, Struggler!");
+    res.json({ message: "Welcome to the Berserk API, Struggler!" });
 });
 
 function notFound(req, res, next) {
