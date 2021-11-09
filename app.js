@@ -7,7 +7,7 @@ const dotenv = require("dotenv");
 //import port from .env
 
 //import router
-const berserkApi = require("./route/index");
+const berserkApi = require("./routes/api/index");
 
 dotenv.config();
 app.use(express.json());
